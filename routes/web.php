@@ -12,5 +12,6 @@
 */
 
 Route::get('/', "Frontend\DefaultController@index");
+Route::get('/shop', "Frontend\ShopController@index");
 
 Auth::routes();
